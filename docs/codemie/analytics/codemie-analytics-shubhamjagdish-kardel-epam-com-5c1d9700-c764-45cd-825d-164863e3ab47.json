@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-09T09:53:10.184Z",
+    "rangeLabel": "all",
+    "agents": [
+      "claude"
+    ],
+    "projectFilter": "all",
+    "totals": {
+      "sessions": 1,
+      "durationMs": 10356918,
+      "turns": 7,
+      "files": 4,
+      "netLines": 0,
+      "toolCallsTotal": 7,
+      "toolSuccessRate": 100,
+      "totalCostUSD": 1.0233509,
+      "cacheReadCostUSD": 0.09015989999999999,
+      "pricedSessions": 1
+    },
+    "unpricedModels": [],
+    "coverage": [
+      {
+        "agentName": "claude",
+        "total": 1,
+        "priced": 1,
+        "withLog": 1
+      }
+    ],
+    "userEmail": "shubhamjagdish_kardel@epam.com",
+    "periodStart": "2026-09-09T06:48:42.514Z",
+    "periodEnd": "2026-09-09T09:41:19.432Z"
+  },
+  "sessions": [
+    {
+      "sessionId": "5c1d9700-c764-45cd-825d-164863e3ab47",
+      "agentName": "claude",
+      "provider": "ai-run-sso",
+      "title": "is this project connected to git repo??",
+      "project": "C:\\Users\\shubhamjagdish_karde\\Desktop\\AI maturity Program\\expense-tracker\\expense-tracker",
+      "branch": "main",
+      "startTime": 1788936522514,
+      "durationMs": 10356918,
+      "turns": 7,
+      "fileOps": 4,
+      "linesAdded": 0,
+      "linesRemoved": 0,
+      "linesModified": 0,
+      "netLines": 0,
+      "filesChanged": 0,
+      "filesWritten": 0,
+      "filesEdited": 0,
+      "toolCallsTotal": 7,
+      "toolCallsSuccess": 7,
+      "toolCallsFailure": 0,
+      "models": [
+        "claude-sonnet-5",
+        "claude-opus-5"
+      ],
+      "languages": [
+        "python"
+      ],
+      "tools": [
+        {
+          "toolName": "Read",
+          "totalCalls": 4,
+          "successCount": 4,
+          "failureCount": 0,
+          "successRate": 100
+        },
+        {
+          "toolName": "Bash",
+          "totalCalls": 3,
+          "successCount": 3,
+          "failureCount": 0,
+          "successRate": 100
+        }
+      ],
+      "tokens": {
+        "input": 3624,
+        "output": 1777,
+        "cacheRead": 300533,
+        "cacheCreation": 114593,
+        "cacheCreation1h": 114593,
+        "total": 420527
+      },
+      "costUSD": 1.0233509,
+      "cacheReadCostUSD": 0.09015989999999999,
+      "perModelCost": [
+        {
+          "model": "claude-sonnet-5",
+          "tokens": {
+            "input": 3622,
+            "output": 1502,
+            "cacheRead": 300533,
+            "cacheCreation": 63255,
+            "cacheCreation1h": 63255,
+            "total": 368912
+          },
+          "costUSD": 0.5030859,
+          "unpriced": false
+        },
+        {
+          "model": "claude-opus-5",
+          "tokens": {
+            "input": 2,
+            "output": 275,
+            "cacheRead": 0,
+            "cacheCreation": 51338,
+            "cacheCreation1h": 51338,
+            "total": 51615
+          },
+          "costUSD": 0.520265,
+          "unpriced": false
+        }
+      ],
+      "hadLog": true,
+      "agentSessionFile": "C:\\Users\\shubhamjagdish_karde\\.claude\\projects\\C--Users-shubhamjagdish-karde-Desktop-AI-maturity-Program-expense-tracker-expense-tracker\\ed6687a0-f4c8-4ef1-bd01-9999b9b1eb04.jsonl",
+      "costSeries": [
+        {
+          "t": 1788935861932,
+          "cost": 0.351243,
+          "tokens": 60011
+        },
+        {
+          "t": 1788935877807,
+          "cost": 0.390327,
+          "tokens": 120184
+        },
+        {
+          "t": 1788936708529,
+          "cost": 0.4105086,
+          "tokens": 180505
+        },
+        {
+          "t": 1788936773259,
+          "cost": 0.4394409,
+          "tokens": 242477
+        },
+        {
+          "t": 1788936780701,
+          "cost": 0.4676079,
+          "tokens": 304964
+        },
+        {
+          "t": 1788936789097,
+          "cost": 0.5030859,
+          "tokens": 368912
+        },
+        {
+          "t": 1788946881271,
+          "cost": 1.0233509,
+          "tokens": 420527
+        }
+      ],
+      "dispatches": [
+        {
+          "kind": "command",
+          "name": "export",
+          "start": 1788936854092,
+          "durationMs": 0
+        },
+        {
+          "kind": "command",
+          "name": "export",
+          "start": 1788936861792,
+          "durationMs": 0
+        },
+        {
+          "kind": "command",
+          "name": "model",
+          "start": 1788946863689,
+          "durationMs": 0
+        },
+        {
+          "kind": "command",
+          "name": "permissions",
+          "start": 1788947465006,
+          "durationMs": 0
+        },
+        {
+          "kind": "command",
+          "name": "theme",
+          "start": 1788947470124,
+          "durationMs": 0
+        },
+        {
+          "kind": "command",
+          "name": "theme",
+          "start": 1788947482580,
+          "durationMs": 0
+        }
+      ],
+      "skillInvocations": [],
+      "agentInvocations": [],
+      "commandInvocations": [
+        {
+          "name": "export",
+          "totalCalls": 2,
+          "successCount": 2,
+          "failureCount": 0
+        },
+        {
+          "name": "model",
+          "totalCalls": 1,
+          "successCount": 1,
+          "failureCount": 0
+        }
+      ],
+      "sessionSource": "Pure chat"
+    }
+  ]
+}
